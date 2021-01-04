@@ -161,23 +161,37 @@ span{
 }
 
 #doubleBG{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
     height: 100%;
     width: auto;
     background-image: url(../img/see.png) center/contain no-repeat;
     background-blend-mode: multiply;
-    background-color: transparent;
+    background-color: transparent; */
+
+    height: 1000px;
+    
+    
+
+    background-image: url(../img/kid.png), url(../img/see.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
 }
 #doubleBG img{
-    width: 100%;
+    /* width: 100%;
     height: auto;
     background: transparent;
     opacity: .5;
-    background-image: url(../img/see.png) no-repeat;
+    background-image: url(../img/see.png) no-repeat; */
+
+    
 
 }
+
+
 
 footer{
     margin: 0;
