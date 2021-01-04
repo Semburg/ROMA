@@ -1,0 +1,236 @@
+/* 
+font-family: 'Mr Dafoe', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* 
+Questions:
+1. .class - see line 50 - does not working 
+for fontsize? -  index.html was not saved °°
+
+2. OVerlappende Bilder - wie gehts ohne flex etc.
+*/
+
+@font-face {
+    font-family: 'Santio bold';
+    src: url(../fonts/Santio\ Bold.otf);
+
+}
+
+
+html, .container{
+    margin: 0;
+    padding: 0;
+    
+    color: white;
+    font-family: 'Santio bold';
+}
+
+.container{
+    background: url(../img/cleo-topper.jpg ) center/cover no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,.8);
+    background-blend-mode: multiply;
+}
+
+header{
+    text-align: right;
+}
+
+header div{
+    display: inline;
+    color: white;
+    /* height: 50px; */
+    width: 20%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+header div img{
+    /* line-height: 5%; */
+    width: 20px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+
+}
+
+header div p{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    border-bottom: 2px solid #e7bc0e;
+}
+
+
+main section:first-child{
+padding: 0;
+margin: 0;
+padding-left: 5%;
+}
+
+
+.bold{
+    /* height: 10em; */
+    font-size: 5em;
+    width: 360px;
+    margin-top: 100px;
+}
+
+.gold{
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 2.3em;
+}
+
+.gold a{
+    list-style: none;
+    text-decoration: none;
+    color: #e7bc0e;
+}
+
+#page1{
+    margin: 60vh 0 10px 100px;
+    text-align: left;
+    width: 60%;
+    /* padding-left: 100px; */
+
+}
+
+.textblock, .last .textblock{
+    font-size: 3em;
+    line-height: 130%;
+}
+
+#page1 .textblock{
+    font-size: 2em;
+    
+    color: #6bc1a3;
+}
+
+span{
+    color:white;
+    background-color: grey;
+}
+
+
+/* 3 SEITEN  */
+
+.tripple{
+    padding-left: 100px;
+    
+}
+
+.tripple img{
+    padding: 0;
+    margin: 0;
+    width: 140px;
+    margin-top: 50vh;
+}
+
+.tripple h1{
+    font-size: 13em;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.tripple p{
+    margin-top: 60px;
+    font-size: 3.5em;
+}
+.golden{
+    color: #e7bc0e;
+}
+
+.lila{
+    color: #cb91b6;
+}
+
+.gree{
+    color: #6bc1a3;
+}
+
+.last{
+    padding-top: 200px;
+    width: 60%;
+    padding-left: 450px;
+}
+
+.last .textblock{
+    color: #7eb8e1;
+    font-size: 2em;
+}
+
+#doubleBG{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: auto;
+    background-image: url(../img/see.png) center/contain no-repeat;
+    background-blend-mode: multiply;
+    background-color: transparent;
+    
+}
+#doubleBG img{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    opacity: .5;
+    background-image: url(../img/see.png) no-repeat;
+
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+footer section{
+    width: 70%;
+    text-align: left;
+    padding: 250px 0 100px 100px;
+}
+
+
+
+
+footer section p:first-child{
+    margin: 0;
+    padding: 0;
+    font-size: 8em;
+    margin-bottom: 150px;
+}
+
+footer  a, footer p:last-of-type{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p:last-of-type{
+    opacity: .8;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+footer section p:last-child a{
+    color:white;
+    font-size: 2.5em;
+    
+    border: white 2px solid;
+    padding: 10px 20px;
+
+}
+
+footer section p:last-child a:hover{
+    text-decoration: none;
+    box-shadow: 10px 8px 6px white;
+}
+
+footer p:last-of-type a{
+    color: #6bc1a3;
+}
+
+footer p:last-of-type a:hover{
+    text-decoration: underline;
+}
